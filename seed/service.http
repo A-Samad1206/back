@@ -1,0 +1,12 @@
+DELETE  http://localhost:4000/create/service
+Content-Type: application/json
+Authorization: Bearer {Token}
+
+{
+  
+}
+
+###
+DELETE http://localhost:4000/delete/service 
+Authorization: Bearer {Token}
+

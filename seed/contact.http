@@ -1,0 +1,15 @@
+DELETE http://localhost:4000/delete/contact 
+Authorization: Bearer {Token}
+
+
+###
+POST http://localhost:4000/create/contact
+Content-Type: application/json
+Authorization: Bearer cfyi3wgfcryhegf8r72t3746_8_2qro98_y3485_7v_6t78_y54t_8459o_6c589t629o6ro93o9v
+
+{ 
+  "subtitle": "Contact Me",
+  "title": "Get In Touch",
+  "message":
+    "If you have a project that you want to get started, think you need my help with something or just fancy saying hey, then get in touch.",
+}
